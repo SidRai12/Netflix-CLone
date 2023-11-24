@@ -1,0 +1,329 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    
+
+}
+#mainsection{
+    background-color: rgba(0, 0, 0, 0.511);
+    padding-bottom: 20rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8.5%;
+    
+}
+#left img{
+    width: 9.0rem;;
+    height: 6rem;
+    color: red;
+
+}
+#cont{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    margin: 0px;
+}
+ 
+#drop select
+{
+    text-decoration: none;
+    /* padding: 6px 36px ; */
+    display: block;
+    /* font-weight: 700; */
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    margin-right: 18px;
+    border-radius: 5px;
+    width: 8rem;
+    height:2rem ;
+    border: 3px solid white;
+    font-size: 10px;
+    
+
+}
+#btn #btn1{
+    width: 5rem;
+    height:2rem ;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    
+}
+#netflix{
+    text-align: center;
+    margin-top:11rem;
+}
+#netflix h1{
+    color: white;
+    font-size: 3.7rem;
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+#netflix p{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+#netflix input{
+width: 25%;
+height: 2.7rem;
+border-radius: 5px;
+color: white;
+margin-right: 1rem;
+background-color: transparent;
+border: 1px solid white;
+font-weight: 400;
+
+
+}
+#user1{
+    text-align: center;
+    position: relative;
+}
+#btn2{
+    margin-top: 0;
+width: 15%;
+height: 2.7rem;
+border-radius: 5px;
+color: white;
+margin-right: 1rem;
+background-color: red;
+border: none;
+font-size: 1.5rem;
+font-weight: 500;
+
+
+}
+::placeholder{
+    color: white;
+    font-weight: 500;
+    padding-left: 15px;
+}
+#i1:hover::placeholder{
+    color: red;
+    padding-top:30px ;
+    transform: translateY(-10px);
+    
+
+}
+.default-ltr-cache-4z3qvp {
+    position: absolute;
+    color: white;
+    top: 0.7rem;
+    
+    left: 63rem;
+}
+#svg1{
+    position: absolute;
+    color: white;
+    top: 2.5rem;
+    left: 71rem;
+}
+#btn2:hover{
+    background-color: rgb(150, 0, 0);
+
+}
+
+#tv{
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+   
+    color: white;
+   
+}
+#tvleft
+{
+    width: 50%;
+}
+#tvright{
+    position: relative;
+    width: 50%;
+}
+#tvleft h1{
+    font-size: 2.5rem;
+}
+#tvleft p{
+    font-size: 1.5rem;
+}
+
+#tvright img{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+
+
+}
+#tvright video{
+    position: absolute;
+    left: 12.5%;
+    top: 20%;
+    width: 74%;
+    z-index: 1;
+}
+#hr{
+    background-color: grey;
+    height: 0.5rem;
+    margin-top: -2%;
+}
+#hr1{
+    background-color: grey;
+    height: 0.5rem;
+    margin-top: 2%;
+}
+#tv1{
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+   
+    color: white;
+   
+}
+#tv1left
+{
+    width: 50%;
+}
+#tv1right{
+    position: relative;
+    width: 50%;
+}
+#tv1left h1{
+    font-size: 2.5rem;
+}
+#tv1left p{
+    font-size: 1.5rem;
+}
+
+#tv1right img{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+
+
+}
+#tv1right video{
+    position: absolute;
+    left: 17.5%;
+    top: 12%;
+    width: 63%;
+    z-index: 1;
+}
+#hr2{
+    background-color: grey;
+    height: 0.5rem;
+    margin-top: 2%;
+}
+#img2{
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+   
+    color: white;
+   
+}
+
+#imgright h1{
+    font-size: 2.5rem;
+}
+#imgright p{
+    font-size: 1.5rem;
+}
+
+#imgleft img{
+    position: relative;
+    width: 100%;
+    z-index: 2;
+
+
+}
+#hr3{
+    background-color: grey;
+    height: 0.5rem;
+    margin-top: 2%;
+}
+#hr4{
+    background-color: grey;
+    height: 0.5rem;
+    margin-top: 2%;
+}
+#mobile{
+    
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+   
+    color: white;
+    
+   
+}
+
+#mobileright h1{
+    font-size: 2.5rem;
+    
+}
+#mobileright p{
+    font-size: 1.5rem;
+}
+
+#mobileleft #mainimg{
+   
+   
+    width: 100%;
+   
+   
+
+
+}
+#mobileleft #submobile{
+   
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(128,128,128,0.7);
+    border-radius: 0.75rem;
+    
+    
+    z-index: 1;
+   
+    
+
+}
+#submobile #gm{
+    height: 5rem;
+    align-items: center;
+    width: 3rem;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 32px;
+    margin-right: 13px;
+}
+#submobile h1{
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    align-items: left;
+    padding-right: 0%;
+}
+#submobile #gif{
+  width: 4rem;
+ }
